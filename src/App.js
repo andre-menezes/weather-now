@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Route, Switch } from 'react-router-dom';
 import './App.css';
+import Header from './components/Header';
+import WeatherCard from './components/WeatherCard';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+	return (
+		<Switch>
+			<Route path='/' component={() => (
+				<main>
+					<Header />
+					<section className='content'>
+						<WeatherCard city={'Nuuk'} country={'GL'} />
+						<WeatherCard city={'Urubici'} country={'BR'} />
+						<WeatherCard city={'Nairobi'} country={'KE'} />
+					</section>
+				</main>
+			)} />
+		</Switch>
+	)
 }
 
 export default App;
