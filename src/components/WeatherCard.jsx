@@ -34,13 +34,13 @@ const WeatherCard = (props) => {
 		const hour = date.getHours() < 10 ? `0${date.getHours()}` : date.getHours();
 		const minute = date.getMinutes() < 10 ? `0${date.getMinutes()}` : date.getMinutes();
 		const second = date.getSeconds() < 10 ? `0${date.getSeconds()}` : date.getSeconds();
-		const sufix = hour < 12 ? 'AM' : 'PM'
-		return `${hour}:${minute}:${second} ${sufix}`
+		const sufix = hour < 12 ? 'AM' : 'PM';
+		return `${hour}:${minute}:${second} ${sufix}`;
 	}
 
 	const verifyTemperature = (temp) => {
-		if (temp <= COLD) return setColor('low');
-		if (temp > HOT) return setColor('high');
+		if (Math.round(temp) <= COLD) return setColor('low');
+		if (Math.round(temp) > HOT) return setColor('high');
 		
 		return setColor('medium');
 	}
@@ -57,8 +57,8 @@ const WeatherCard = (props) => {
 	useEffect(()=>{
 		getWeather();
 
-    const interval = setInterval(()=>{
-      getWeather()
+		const interval = setInterval(() => {
+			getWeather()
     }, TIME_RELOAD)
 
 		return () => clearInterval(interval)
@@ -68,7 +68,7 @@ const WeatherCard = (props) => {
 
 	if (data?.msg) {
 		return (
-			<div className='card'>
+			<div className='card' data-cy='weather-card'>
 				<div className='card-header'>
 					{`${city}, ${country}`}
 				</div>
@@ -88,31 +88,31 @@ const WeatherCard = (props) => {
 
 	return data && (
 		<div className='card'>
-			<div className='card-header'>
+			<div className='card-header' data-cy={`${city.toLowerCase()}-card`}>
 				{`${city}, ${country}`}
 			</div>
 			{!isLoading ? (
 				<div>
 					<div className='card-weather'>
-						<p className={color}>
+						<p className={color} data-cy={color}>
 							{data.main.temp.toFixed(0)}
 							<span className='degree'>º</span>
 						</p>
 					</div>
 					<div className='card-footer'>
 						<div className='footer-content'>
-							<div>
+							<div data-cy="humidity">
 								<p>Humidity</p>
 								<span>{data.main.humidity}</span>
 								<span>%</span>
 							</div>
-							<div>
+							<div data-cy="pressure">
 								<p>Pressure</p>
 								<span>{data.main.pressure}</span>
 								<span>hPa</span>
 							</div>
 						</div>
-						<p>{`Updated at ${timeNow}`}</p>
+						<p data-cy='updated-time'>{`Updated at ${timeNow}`}</p>
 					</div>
 				</div>
 			) : <img className='loading' src={loader} alt='loader' />
