@@ -169,9 +169,3 @@ main {
 	color: #EBEBEB;
 	transition: 300ms;
 }
-
-@media only screen and (max-height: 720px) {
-  main {
-		height: 115vh;
-	}
-}
