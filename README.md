@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Conta Azul - Desafio Front-End
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>Este projeto foi desenvolvido como desafio técnico da empresa Conta Azul.</p>
+<p>Ele consiste em uma aplicação que exibe informações sobre o clima de três cidades, como temperatura, umidade e pressão.</p>
+<p>As cidades abordadas são:</p>
+- Nuuk, Groelândia;<br>
+- Urubici, Brasil;<br>
+- Nairibi, Quênia;<br>
 
-## Available Scripts
+<hr>
 
-In the project directory, you can run:
+## Sumário
 
-### `yarn start`
+- [Clonando o projeto](#clonando-o-projeto)
+- [Instalando as dependências](#instalando-as-dependências)
+- [Rodando a aplicação](#rodando-a-aplicação)
+- [Executando os testes](#executando-os-testes)
+- [Fazendo o build da aplicação](#fazendo-o-build-da-aplicação)
+- [Imagens do projeto](#imagens-do-projeto)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Clonando o projeto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Para clonar o projeto, você deve executar o seguinte comando:
 
-### `yarn test`
+### `git clone https://github.com/andre-menezes/conta-azul-front-end-challenge.git`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<hr>
 
-### `yarn build`
+## Instalando as dependências
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para instalar as dependências do projeto, no diretório do projeto, você deve executar o seguinte comando:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `yarn install` ou `npm install`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<hr>
 
-### `yarn eject`
+## Rodando a aplicação
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Para rodar a aplicação, você deve executar o seguinte comando:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `yarn start` ou `npm start`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+A aplicação irá rodar no seguinte endereço: `http://localhost:3000`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Executando os testes
 
-## Learn More
+Os testes são executados por meio do Cypress, para isso, você deve executar o seguinte comando:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### `yarn cypress` ou `npm run cypress`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Também há a possibilidade de executar os testes com interface no browser através do comando:
 
-### Code Splitting
+### `yarn cypress:open` ou `npm run cypress:open`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<hr>
 
-### Analyzing the Bundle Size
+## Fazendo o build da aplicação
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Para fazer o build da aplicação, você deve executar o seguinte comando:
 
-### Making a Progressive Web App
+### `yarn build` ou `npm build`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<hr>
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Imagens do projeto:
+<img src="https://i.pinimg.com/originals/21/2f/ba/212fba715f68eafcdbb680a772201376.jpg" alt="mobile" width=200/>
+<img src="https://i.pinimg.com/originals/e4/86/b0/e486b0e08e77ca1e265b919361673c00.jpg" alt="mobile" width=900/>
