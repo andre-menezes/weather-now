@@ -16,6 +16,7 @@
 - [Rodando a aplicação](#rodando-a-aplicação)
 - [Executando os testes](#executando-os-testes)
 - [Fazendo o build da aplicação](#fazendo-o-build-da-aplicação)
+- [Imagens do projeto](#imagens-do-projeto)
 
 ## Clonando o projeto
 
@@ -61,6 +62,6 @@ Para fazer o build da aplicação, você deve executar o seguinte comando:
 
 <hr>
 
-### Imagens do projeto:
+## Imagens do projeto:
 <img src="https://i.pinimg.com/originals/21/2f/ba/212fba715f68eafcdbb680a772201376.jpg" alt="mobile" width=200/>
 <img src="https://i.pinimg.com/originals/e4/86/b0/e486b0e08e77ca1e265b919361673c00.jpg" alt="mobile" width=900/>
