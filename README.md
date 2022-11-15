@@ -1,4 +1,4 @@
-# Conta Azul - Desafio Front-End
+# Weather Now
 
 <p>Este projeto consiste em uma aplicação que exibe informações sobre o clima de cinco cidades, como temperatura, umidade e pressão.</p>
 <p>As cidades abordadas são:</p>
