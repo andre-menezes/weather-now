@@ -14,6 +14,8 @@ const App = () => {
 						<WeatherCard city={'Paris'} country={'FR'} />
 						<WeatherCard city={'Toronto'} country={'CA'} />
 						<WeatherCard city={'São Paulo'} country={'BR'} />
+						<WeatherCard city={'Moscow'} country={'RU'} />
+						<WeatherCard city={'Cairo'} country={'EG'} />
 					</section>
 				</main>
 			)} />

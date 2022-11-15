@@ -1,11 +1,12 @@
 # Conta Azul - Desafio Front-End
 
-<p>Este projeto foi desenvolvido como desafio técnico da empresa Conta Azul.</p>
-<p>Ele consiste em uma aplicação que exibe informações sobre o clima de três cidades, como temperatura, umidade e pressão.</p>
+<p>Este projeto consiste em uma aplicação que exibe informações sobre o clima de cinco cidades, como temperatura, umidade e pressão.</p>
 <p>As cidades abordadas são:</p>
-- Nuuk, Groelândia;<br>
-- Urubici, Brasil;<br>
-- Nairibi, Quênia;<br>
+- Paris, França;<br>
+- Toronto, Canadá;<br>
+- São Paulo, Brasil;<br>
+- Moscou, Rússia;<br>
+- Cairo, Egito;<br>
 
 <hr>
 
@@ -30,7 +31,7 @@ Para clonar o projeto, você deve executar o seguinte comando:
 
 Para instalar as dependências do projeto, no diretório do projeto, você deve executar o seguinte comando:
 
-### `yarn install` ou `npm install`
+### `npm install`
 
 <hr>
 
@@ -38,7 +39,7 @@ Para instalar as dependências do projeto, no diretório do projeto, você deve 
 
 Para rodar a aplicação, você deve executar o seguinte comando:
 
-### `yarn start` ou `npm start`
+### `npm start`
 
 A aplicação irá rodar no seguinte endereço: `http://localhost:3000`
 
@@ -46,11 +47,11 @@ A aplicação irá rodar no seguinte endereço: `http://localhost:3000`
 
 Os testes são executados por meio do Cypress, para isso, você deve executar o seguinte comando:
 
-### `yarn cypress` ou `npm run cypress`
+### `npm run cypress`
 
 Também há a possibilidade de executar os testes com interface no browser através do comando:
 
-### `yarn cypress:open` ou `npm run cypress:open`
+### `npm run cypress:open`
 
 <hr>
 
@@ -58,11 +59,11 @@ Também há a possibilidade de executar os testes com interface no browser atrav
 
 Para fazer o build da aplicação, você deve executar o seguinte comando:
 
-### `yarn build` ou `npm build`
+### `npm build`
 
 <hr>
 
 ## Imagens do projeto:
 <img src="https://user-images.githubusercontent.com/69818988/201937045-a070d4d8-af54-4595-9552-808377500b2a.png" alt="mobile" width=200/>
-<img src="https://user-images.githubusercontent.com/69818988/201935707-f4ea5114-d427-4f4f-8c56-1d14b19ca3a0.png" alt="mobile" width=900/>
+<img src="https://user-images.githubusercontent.com/69818988/201940878-be01530e-ac4a-4677-8cba-4730854357c6.png" alt="desktop" width=900/>
 
