@@ -14,7 +14,7 @@ const WeatherCard = (props) => {
 
 	const COLD = 5;
 	const HOT = 25;
-	const TIME_RELOAD = 600000;
+	const TIME_RELOAD = 10000;
 
 	const getCityWeather = async (city, country) => {
 		const API_KEY = '8e986152e3242ab108cee423aed95ea3';

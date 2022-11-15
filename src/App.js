@@ -11,9 +11,9 @@ const App = () => {
 				<main>
 					<Header />
 					<section className='content'>
-						<WeatherCard city={'Nuuk'} country={'GL'} />
-						<WeatherCard city={'Urubici'} country={'BR'} />
-						<WeatherCard city={'Nairobi'} country={'KE'} />
+						<WeatherCard city={'Paris'} country={'FR'} />
+						<WeatherCard city={'Toronto'} country={'CA'} />
+						<WeatherCard city={'São Paulo'} country={'BR'} />
 					</section>
 				</main>
 			)} />
