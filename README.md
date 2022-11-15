@@ -63,5 +63,6 @@ Para fazer o build da aplicação, você deve executar o seguinte comando:
 <hr>
 
 ## Imagens do projeto:
-<img src="https://i.pinimg.com/originals/21/2f/ba/212fba715f68eafcdbb680a772201376.jpg" alt="mobile" width=200/>
-<img src="https://i.pinimg.com/originals/e4/86/b0/e486b0e08e77ca1e265b919361673c00.jpg" alt="mobile" width=900/>
+<img src="https://user-images.githubusercontent.com/69818988/201937045-a070d4d8-af54-4595-9552-808377500b2a.png" alt="mobile" width=200/>
+<img src="https://user-images.githubusercontent.com/69818988/201935707-f4ea5114-d427-4f4f-8c56-1d14b19ca3a0.png" alt="mobile" width=900/>
+
